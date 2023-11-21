@@ -5,7 +5,7 @@ FROM openjdk:11-jdk-slim-sid
 WORKDIR /app
 
 # Copy the JAR file into the container at /app
-COPY java/target/nba-0.0.1-SNAPSHOT.jar /app/nba-0.0.1-SNAPSHOT.jar
+COPY target/nba-0.0.1-SNAPSHOT.jar /app/nba-0.0.1-SNAPSHOT.jar
 
 # Expose the port the app runs on
 EXPOSE 8080
