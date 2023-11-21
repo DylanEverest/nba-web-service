@@ -12,3 +12,4 @@ EXPOSE 8080
 
 # Specify the command to run on container start
 CMD ["java", "-jar", "/app/nba-0.0.1-SNAPSHOT.jar"]
+ 
